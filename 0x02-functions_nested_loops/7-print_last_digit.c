@@ -1,19 +1,20 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * print_last_digit - return last digit
- * @n : number to check
- * Return:0 or 1
+ * print_last_digit - Check Johnel
+ * @r: An integer input
+ * Description: This function prints the last digit of a number
+ * Return: last digit of number r
  */
-
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	int nv;
+	int n;
 
-	if (n < 0)
-		nv = -1 * (n % 10);
+	if (r < 0)
+		n = -1 * (r % 10);
 	else
-		nv = n % 10;
+		n = r % 10;
 
-	_putchar(nv + '0');
-		return (nv);
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
