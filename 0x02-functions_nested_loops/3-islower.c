@@ -1,21 +1,22 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _islower - function to check for lowercase character
- *
- * @c: parameter to pass characters and check if characters are lowercase
- *
- * Return: to return 1 if characer is lowercase
- * and return 0 is character is not lowercase
+ * _islower - Check Johnel
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(int c)
 {
-if (c >= 97 && c <= 122)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+	char i;
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == c)
+			lower = 1;
+	}
+
+	return (lower);
 }
