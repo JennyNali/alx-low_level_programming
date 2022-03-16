@@ -1,29 +1,37 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * print_to_98 - prints all the natural numbers from n to 98
- *
- * @n: interger to be tested
- * Return: list of numbers
+ * print_to_98 - Check Holberton
+ * @n: A input integer
+ * Description: function that prints all natural numbers
+ * from n to 98, followed by a new line.
+ * Return: Nothing
  */
 void print_to_98(int n)
 {
-	int i;
-
 	if (n <= 98)
 	{
-		for (i = n; i < 98; i++)
+		for (; n <= 98; n++)
 		{
-			printf("%i, ", i);
+			printf("%d", n);
+
+			if (n == 98)
+				continue;
+			printf(", ");
 		}
+		printf("\n");
 	}
 	else
 	{
-		for (i = n; i > 98; i--)
+		for (; n >= 98; n--)
 		{
-			printf("%i, ", i);
+			printf("%d", n);
+
+			if (n == 98)
+				continue;
+			printf(", ");
 		}
+		printf("\n");
 	}
-	printf("98\n");
 }
