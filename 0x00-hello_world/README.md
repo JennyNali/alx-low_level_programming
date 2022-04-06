@@ -36,3 +36,6 @@
 > a script that generates the assembly code (Intel syntax) of a C code and saves it in an output file.
 - The C file name is saved in the variable $CFILE.
 - The output file is named the same as the C file, but with the extension .s instead of .c
+
+## Author
+* **JENNIFER ONWUNALI** - [JennyNali](https://github.com/JennyNali)
