@@ -1,1 +1,1 @@
-##0x06. C - More pointers, arrars and strings
+## 0x06. C - More pointers, arrars and strings
