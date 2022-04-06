@@ -13,4 +13,4 @@
 ## main.h
 > Header file that contains function prototypes used in this project.
 ## Author
-> Onwunali Jennifer
+* **JENNIFER ONWUNALI** - [JennyNali](https://github.com/JennyNali)
